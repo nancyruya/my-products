@@ -1,29 +1,64 @@
 #logo-img {
     color: orange;
     text-align: Center;
-    background-color: lightblue;
+    background-color: skyblue;
     padding: 35px 70px;
 }
 
 /* Footer */
+#call-btn {
+    padding-top: 60px; 
+    padding-bottom: 40px;
+    background-color: #00aeef;
+}
+
+
+#call-btn > div {
+    padding-bottom: 20px;
+    color: white;
+    font-family: Oxygen;
+    font-size: x-large;
+}
+
+a.btn {
+    background-color: #f57f3e;
+    color: white;
+    border: 1px solid white;
+    padding: 10px 15px 10px 15px;
+}
+
+a.btn span {
+    padding-left: 0.5em;
+}
+
 .panel-footer {
     margin-top: 30px;
-    padding-top: 35px;
+    padding-top: 0;
     padding-bottom: 30px;
-    background-color:gray;
+    background-color: #1F1F1F;
     border-top: 0;
   }
+  
 .panel-footer section {
+    padding-top: 100px;
     margin-bottom: 30px;
     text-align: center;
+    color: white;
+    font-family: Oxygen;
+  }
+
+.panel-footer #copy-right {
+      color: #464646;
+      font-size: x-small;
   }
  
   .panel-footer section hr {
     width: 50%;
+    background-color: #464646;
   }
   /* End Footer */
 
-@media (min-width: 768px) {
+@media (min-width: 576px) {
     .visible-xs {
        display: none;
     }
