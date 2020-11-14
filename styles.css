@@ -5,6 +5,29 @@
     padding: 35px 70px;
 }
 
+/* Main Content */
+.bg-text {
+  background-color: rgba(0,0,0, 0.4);
+  color: white;
+  font-weight: bold;
+  font-size: 80px;
+  border: 10px solid #f1f1f1;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  /* z-index: 2; */
+  width: 300px;
+  padding: 20px;
+  text-align: center;
+}
+
+#banner_section {
+  background-image: url(https://secureservercdn.net/45.40.146.38/ova.d8d.myftpupload.com/wp-content/uploads/2020/09/hero-photo.jpg?time=1604693204);
+
+}
+/* End Main Content */
+
 /* Footer */
 #call-btn {
     padding-top: 60px; 
